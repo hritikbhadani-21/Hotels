@@ -23,7 +23,7 @@ db.on('error',(err)=>{
 
 
 db.on('disconnected',()=>{
-  console.log('DisConnected to mongodb server');
+  console.log('Disconnected to mongodb server');  //demo push check
 });
 
 
